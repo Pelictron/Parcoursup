@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Pendu</title>
+    <link href="/static/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <h1>Pendu</h1>
+    <form action="/jouer" method="POST">
+        <h2> 
+            {{ cache }} 
+        </h2>
+
+        <div>
+            <label for="prop">Quelle lettre voulez-vous tester :</label>
+            <div>
+                <input type="text" name="prop" maxlenght="1" id="prop" placeholder="Indiquez une lettre" required>
+            </div>
+        </div>
+        <div>
+            <button type="submit">Envoyer </button>
+        </div>
+
+        <p>
+            Vous avez {{ nb_erreurs }} erreurs.
+        </p>
+
+        <img src="{{ image }}" >
+            
+        
+    </form>
+        
+</body>
+
+</html>

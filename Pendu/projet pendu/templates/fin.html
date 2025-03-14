@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Pendu</title>
+    <link href="/static/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <h1>Pendu</h1>
+    <p>
+        Le mot à trouver était {{ mot }}.
+        Tu as fait {{ nb_erreurs }} erreurs.
+    </p>
+    <div>
+        <img src=/static/images/pendu_score_{{nb_erreurs}}.png  >
+    </div>
+    
+    <p>
+        <a href="/">Cliquez ici pour rejouer</a> </p>
+    </p>
+</body>
+
+</html>
+

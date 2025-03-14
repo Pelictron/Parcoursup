@@ -1,0 +1,49 @@
+body h2 {
+    letter-spacing: 2px;
+}
+
+body {
+    text-align: center; 
+    background-color: rgb(255, 245, 212);
+}
+body h1 {
+    margin-left: 35% ;
+    margin-right: 35% ;
+    margin-top: 1cm ;
+    margin-bottom: 1cm ;
+    padding-top: 0.5cm;
+    padding-bottom: 0.5cm;
+    border: 0.3px rgb(0, 0, 0 ) solid;
+    background-color: rgb(252, 191, 123);
+} 
+
+body form {
+    border: 3px rgb(0, 0, 0 ) solid;
+    border-radius: 50px;
+    margin-right: 20% ;
+    margin-left: 20% ;
+    background-color: rgb(255, 222, 183);
+}
+
+div {
+    margin: 5px;
+}
+
+img {
+    border: 3px rgb(0, 0, 0 ) solid;
+    border-radius: 50px;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 1cm;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    border-radius: 35px;
+    padding-top: 0.5cm;
+    padding-bottom: 0.5cm;
+    padding-right: 1em;
+    padding-left: 1em;
+    border: 0.5px rgb(0, 0, 0 ) solid;
+    background-color: rgb(252, 191, 123);
+}
